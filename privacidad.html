@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de privacidad</title>
+  <meta name="description" content="Política de privacidad de Centro de mando, la herramienta interna de EstiloFutbol.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <div class="card">
+      <h1>Política de privacidad de Centro de mando</h1>
+      <p class="muted">Última actualización: 4 de noviembre de 2026</p>
+
+      <p>Centro de mando es una herramienta interna de EstiloFutbol que usa únicamente su propietario,
+        con su propia cuenta de Google. No es un servicio abierto al público y no recoge datos de ninguna otra persona usuaria.</p>
+
+      <h2>Qué datos de Google se usan</h2>
+      <ul>
+        <li><strong>Gmail</strong>: remitente, asunto, fecha, etiquetas y un extracto breve de los correos recibidos.
+          No se lee el cuerpo completo ni los adjuntos. Además se crean <em>borradores</em> de respuesta y se envía
+          el parte diario a la propia cuenta del propietario. Nunca se envían correos a terceros.</li>
+        <li><strong>Google Calendar</strong>: título, hora y lugar de los eventos del calendario principal (solo lectura).</li>
+        <li><strong>Google Drive</strong>: nombre, tipo y fecha de modificación de los archivos (solo metadatos, solo lectura).
+          No se accede al contenido de los archivos.</li>
+      </ul>
+
+      <h2>Para qué se usan</h2>
+      <p>Solo para generar un parte diario y un informe semanal privados para el propietario, que resumen el estado de sus
+        proyectos, su correo y su agenda. Los datos se procesan de forma automática con un asistente de IA
+        (Claude, de Anthropic) solo para redactar ese resumen.</p>
+
+      <h2>Dónde se guardan</h2>
+      <ul>
+        <li>Las credenciales de acceso se guardan cifradas como secretos en GitHub Actions.</li>
+        <li>Los datos descargados se usan durante la ejecución y se descartan al terminar.</li>
+        <li>Solo se conservan los resúmenes redactados, en un repositorio privado del propietario.</li>
+      </ul>
+
+      <h2>Con quién se comparten</h2>
+      <p>Con nadie. Los datos no se venden, no se ceden a terceros, no se usan con fines publicitarios y no se usan para
+        entrenar modelos de inteligencia artificial generales.</p>
+
+      <h2>Uso limitado de los datos de Google</h2>
+      <p>El uso y la transferencia a cualquier otra aplicación de la información recibida de las API de Google se ajustarán a la
+        <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de datos de usuario de los servicios de API de Google</a>,
+        incluidos los requisitos de uso limitado (<em>Limited Use</em>).</p>
+
+      <h2>Cómo revocar el acceso</h2>
+      <p>El acceso se puede retirar en cualquier momento desde
+        <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+        Al hacerlo, la herramienta deja de poder leer ningún dato.</p>
+
+      <h2>Contacto</h2>
+      <p>Para cualquier consulta sobre esta política: <a href="https://github.com/EstiloFutbol">github.com/EstiloFutbol</a>.</p>
+    </div>
+    <footer><a href="index.html">← Inicio</a></footer>
+  </main>
+</body>
+</html>
